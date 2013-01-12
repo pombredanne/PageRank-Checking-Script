@@ -6,9 +6,22 @@ PageRank Checking Script
 A Python script that checks the PageRank values of a given URL list. Worked with chunks of ~2500 URLs every 20 minutes.
 Be advised that you should have a "safety" IP address to do this from. Shouldn't matter with small batches though.
 
-Reads from urlList.txt. One URL per line
+Reads from source list 'urlList.txt'. One URL per line
 
 Run 'begin-check.py'
 
 Dumps list of PageRanks into PRdump.txt
+
+Why would I use this?
+========================
+
+If you want to monitor the PageRank changes among a spread of your websites over time, this could record useful information.
+Know how Google is keeping tabs on your property.
+
+What needs improvement?
+========================
+
+Um, everything. 
+
+Wish list: output to CSV, add curl response time for each URL, etc, etc. This was a quick and dirty solution to a small problem, and could be fleshed out.
 
