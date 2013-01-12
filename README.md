@@ -7,9 +7,9 @@ A Python script that checks the PageRank values of a given URL list. Worked with
 Be advised that you should have a "safety" IP address to do this from. Shouldn't matter with small batches though. You'll 
 need a working version of Python installed. http://www.python.org/download/
 
-Reads from source list 'urlList.txt'. One URL per line
-
 Run 'begin-check.py'
+
+Reads from source list 'urlList.txt'. One URL per line
 
 Dumps list of PageRanks into PRdump.txt
 
