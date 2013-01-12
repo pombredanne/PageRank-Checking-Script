@@ -1,4 +1,4 @@
-PageRank-Checking-Script
+PageRank Checking Script
 ========================
 
 ** This is a few years old and Google might throttle you immediately. Just keeping this up for reference **
