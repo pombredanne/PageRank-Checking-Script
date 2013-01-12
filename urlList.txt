@@ -1,0 +1,4 @@
+http://www.wired.com
+http://www.slashdot.com
+http://www.buzzfeed.com
+https://www.torproject.org
