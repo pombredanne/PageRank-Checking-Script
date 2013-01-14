@@ -3,9 +3,9 @@
 
 import pagerank
 
-file = open ('urlList.txt', 'r')
-dump = open ('PRdump.txt', 'w')
+sourceFile = open ('urlList.txt', 'r')
+listDump = open ('PRdump.txt', 'w')
 
-for line in file:
+for line in sourceFile:
   rank = pagerank.get_pagerank(line)
-	print >>dump, rank, "\n",
+	print >>listDump, rank, "\n",
